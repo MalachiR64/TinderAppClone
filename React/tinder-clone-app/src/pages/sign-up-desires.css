@@ -1,0 +1,59 @@
+.wrapper {
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    align-self: center;
+    transform: translate(-50%, -50%);
+    max-width: 500px;
+    width: 100%;
+    background: #fff;
+    padding: 40px 34px;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper > div {
+    margin-bottom: 20px;
+}
+
+.wrapper label {
+    color: #707070;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 6px;
+    display: block;
+}
+
+.wrapper input[type='text'] {
+    height: 38px;
+    width: 100%;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #333;
+    border: 1.5px solid #C7BEBE;
+    border-radius: 6px;
+    transition: border-color 0.3s ease;
+}
+
+.wrapper input[type='text']:focus,
+.wrapper input[type='text']:valid {
+    border-color: #000000;
+}
+
+.wrapper button {
+    height: 38px;
+    width: 100%;
+    color: #fff;
+    letter-spacing: 1px;
+    border: none;
+    background: #000000;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.wrapper button:hover {
+    background: #333;
+}

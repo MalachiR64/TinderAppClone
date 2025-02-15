@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+  }
+  
+  ul {
+    list-style: none; /* Remove default list style */
+    padding: 0; /* Remove default padding */
+    margin-top: 25px;
+  }
+  
+  .wrapper {
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    align-self: center;
+    transform: translate(-50%, -50%);
+    max-width: 500px;
+    max-height: 100%;
+    width: 200%;
+    background: #fff;
+    padding: 60px 34px; /* Adjusted padding */
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  ul li button {
+    margin-left: 10px; /* Add margin to separate button from text */
+  }
+  
+  .wrapper h2 {
+    position: relative;
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .wrapper h2::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 28px;
+    border-radius: 12px;
+    background: #000000;
+  }
+  
+  .wrapper form {
+    margin-top: 30px;
+  }
+  
+  .wrapper form select {
+    height: 38px;
+    width: 100%;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #333;
+    border: 1.5px solid #C7BEBE;
+    border-radius: 6px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .wrapper form select:focus,
+  .wrapper form select:valid {
+    border-color: #000000;
+  }
+  
+  .wrapper form .input-box {
+    margin-bottom: 18px;
+  }
+  
+  .wrapper form .input-row {
+    display: flex; /* Display children side by side */
+  }
+  
+  .wrapper form .input-box:first-child {
+    margin-right: 10px; /* Add space between First Name and Last Name */
+  }
+  
+  .button {
+    height: 20px;
+    width: 2%;
+    background: #000000; /* Change background on hover */
+  
+    letter-spacing: 1px;
+    border: 1.5px solid #000000; /* Change border to match provided style */
+    background: transparent; /* Set background transparent */
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease; /* Include color transition */
+  }
+  
+  /* Styles for buttons on hover */
+  .button:hover {
+    background: #000000; /* Change background on hover */
+    color: #fff; /* Change text color on hover */
+  }
+  
+  .submit-button {
+    margin-top: 25px;
+    width: 100%;
+    height: 45px; /* Increase the height to make it bigger */
+    background: #000000; /* Change button background color to black */
+    color: #ffffff;
+    border-radius: 6px;
+  }
+  
+  .submit-button:hover {
+    background: #fff; /* Change background on hover */
+    color: #000000;
+  }
+  
+  .wrapper h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .selected-values {
+    margin-top: 10px; /* Adjust the margin as needed */
+  }

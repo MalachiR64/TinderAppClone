@@ -1,0 +1,82 @@
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    }
+
+.profile-card {
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 25px;
+    padding: 30px;
+    border: 1px solid #ffffff40;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+    }
+.profile-name{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-top: 15px;
+}
+.profile-age{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-top: 10px
+}
+.profile-bio{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-top: 10px;
+}
+.profile-interests{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.profile-details {
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    position: absolute;
+    top: -50px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    border-radius: 20%; 
+    border: 3px solid white; 
+    width: 100px; 
+    height: 100px; 
+}

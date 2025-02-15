@@ -1,0 +1,11 @@
+#bottom {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    margin-right: 0px;
+    width: 100%;
+}
+
+#chat {
+    padding-bottom: 40px;
+}
